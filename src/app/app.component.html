@@ -1,14 +1,20 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
+  <h1 style="color: black ;">
     Welcome to {{ title }}!
   </h1>
 </div>
 <div style="color: brown;">
-  <h1>List of countries with highest motality rates</h1>
-  <table>List of countries</table>
-  <th>Country</th>
-  <tr style="color: chocolate; text-align: center;"></tr>
-    <td style="color: cornflowerblue; text-align: end;"><a routerLink="/search-customers"></a>India</td>
+  <h1>List of countries with highest mortality rates</h1>
+  <table>Countries</table>
+  <td class="list-style"></td>
+    <nav>
+      <a routerLink="/search-customers">India</a>
+      <br>
+      <a routerLink="/customer-list">Employee List</a>
+    </nav>
   <router-outlet></router-outlet>
+</div>
+<div>
+  
 </div>

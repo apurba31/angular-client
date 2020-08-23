@@ -1,0 +1,6 @@
+[
+    {"id":1, "name": "McNulty", "age": 30},
+    {"id":2, "name": "Bunk Moreland", "age": 30},
+    {"id":3, "name": "Avon Barksdale", "age": 50},
+    {"id":4, "name": "Stringer Bell", "age":50}
+  ]

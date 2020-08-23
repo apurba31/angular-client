@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EmployeeService } from '../employee.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-customers-list',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomersListComponent implements OnInit {
 
-  constructor() { }
+  public employees = [];
+
+  constructor(private _employeeService: EmployeeService) { }
 
   ngOnInit() {
+    
   }
 
 }

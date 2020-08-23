@@ -2,3 +2,17 @@ h1 {
     color: blue;
     font-size: 150%;
   }
+
+  list-style {
+    color: black;
+    font-size: medium;
+    font-style: unset;
+  }
+
+  nav a:hover{
+    color: chartreuse;
+    background-color: darkblue;
+  }
+  nav a.active{
+    color:darkgreen;
+  }
